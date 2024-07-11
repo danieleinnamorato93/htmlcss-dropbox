@@ -7,6 +7,11 @@
 body {
     margin: 0;
 }
+header {
+    height: 80vh;
+    background-color: blanchedalmond;
+    border: 2px dashed black;
+}
 
 .navbar  {
     background-color: rgb(44, 202, 202);
@@ -34,10 +39,12 @@ body {
     color: black;
     text-decoration: none;
     gap: 10px;
+    border: 2px dashed black;
 }
 
 .navbar-left ul {
     justify-content: flex-start;
+    
 }
 
 .navbar-right ul {
