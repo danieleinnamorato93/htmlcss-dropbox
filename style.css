@@ -9,6 +9,8 @@ body {
     margin: 0 auto;
     padding: 0 auto;
 }
+
+/*Header*/
 header {
     position: relative;
     height: 80vh;
@@ -18,32 +20,39 @@ header {
     justify-content: center;
     align-items: flex-end;
 }
+
 .xl-container { 
-    min-height: 60vh;
-    min-width: 70%;
-    background-color: blueviolet;
-    border: 2px dashed white;
+min-height: 71vh;
+max-width: 80%;
+background-color: blueviolet;
+border: 2px dashed white;
+position: relative;
+    
 }
 
-
-.small-container {
+.title  {
+font-size: 20px;
+text-align: center;
+margin: 10px;
+line-height: 45px;
 
 }
+
 
 .navbar  {
-    background-color: rgb(44, 202, 202);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;  
-    min-height: 65px;
-    width: 100%; 
-    border: 2px dashed black;
-    position: fixed;
-    top: 0;
-    left: 0;
-    box-shadow: 0px 0px 0px 0.8px #333333;
-    z-index: 1;
+background-color: rgb(44, 202, 202);
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 20px;  
+min-height: 65px;
+width: 100%; 
+border: 2px dashed black;
+position: fixed;
+top: 0;
+left: 0;
+box-shadow: 0px 0px 0px 0.8px #333333;
+z-index: 1;
 }
 
 .navbar-left, .navbar-right {
@@ -67,8 +76,48 @@ header {
 .navbar-right ul {
     justify-content: flex-end;
 }
+.bottom-header-content {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+}
+.left-col, .right-col {
+    width:48% ;
+    margin-top: 10px;
+}
+.left-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:20px;
+    
+}
 
+.left-col p {
+    margin-bottom: 15px;
+    border: 2px dashed black;
+    min-height: 30px;
+}
+.left-col button {
+    font-size: 12px;
+    max-width: 156px;
+    min-height: 30px;
+}
 
+.right-col {
+    position: relative;
+}
+
+.right-col div {    /* Questo diventa un'img*/
+    max-width: 100%;
+    min-height: 410px;
+    border: 2px dashed black;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
 
 
 
