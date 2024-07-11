@@ -23,19 +23,18 @@ header {
 }
 
 .xl-container { 
-    padding: 13px;
+    padding: 0px;
     min-height: 60vh;
-    max-width: 100%;
+    max-width: 81%;
     position: relative;
 }
     
 
 
 .title  {
-    font-size: 30px;
+    font-size: 16px;
     text-align: center;
     margin: 10px;
-    line-height: 58px;
 }
 
 .small-txt {
@@ -101,7 +100,7 @@ z-index: 1;
     display: flex;
     width: 100%;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
 }
 .left-col, .right-col {
     width:48% ;
@@ -138,7 +137,7 @@ z-index: 1;
 
 .right-col img {    
     
-    max-height: 275px;
+    max-height: 285px;
     position: absolute;
     top: 0;
     right: 10px;
