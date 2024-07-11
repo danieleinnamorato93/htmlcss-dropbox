@@ -5,12 +5,29 @@
 }
 
 body {
-    margin: 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
 }
 header {
+    position: relative;
     height: 80vh;
     background-color: blanchedalmond;
     border: 2px dashed black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.xl-container { 
+    min-height: 60vh;
+    min-width: 70%;
+    background-color: blueviolet;
+    border: 2px dashed white;
+}
+
+
+.small-container {
+
 }
 
 .navbar  {
