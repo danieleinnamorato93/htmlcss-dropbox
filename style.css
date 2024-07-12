@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     box-sizing: border-box;
     margin: 0 auto;
@@ -12,8 +11,6 @@ body {
     font-family: OpenSans, Helvetica, sans-serif;
     
 }
-
-
 header {
     position: relative;
     height: 60vh;
@@ -22,19 +19,16 @@ header {
     justify-content: center;
     align-items: flex-end;
 }
-
 .xl-container { 
     padding: 0px;
     min-height: 42vh;
     max-width: 81%;
     position: relative;
 }
-
-
 .xs-container {
     padding: 0px;
     min-height: 60vh;
-    max-width: 45%;
+    max-width: 50%;
     position: relative;
     margin: 100px auto;
     border: 2px dashed black;
@@ -44,7 +38,6 @@ header {
     text-align: center;
     margin: 6px 0px;
 }
-
 .small-txt {
     font-size: 11px;
     color: black;
@@ -56,7 +49,6 @@ header {
 .grey-txt {
     color:lightgrey;
 }
-
 button{
     width: 50px;
     height: 18px;
@@ -65,15 +57,16 @@ button{
     color: white;}
 
     #pricing button {
+        height: 30px;
+        width: 100%;
+        font-size: 15px;
         height: 20px;
         width: 90%;
         font-size: 11px;
     }
-    
 
 
 /*Header*/
-
 .navbar  {
 background-color:white;
 display: flex;
@@ -93,7 +86,6 @@ z-index: 1;
 text-decoration-line: none;
 color: black;
 }
-
 .navbar-left, .navbar-right {
     display: flex;
 }
@@ -101,7 +93,6 @@ color: black;
     max-height: 62%;
     
 }
-
 .navbar-left ul, .navbar-right ul {
     display: flex;
     list-style-type: none;
@@ -109,17 +100,13 @@ color: black;
     text-decoration: none;
     gap: 10px;
 }
-
 .navbar-left ul {
     justify-content: flex-start;
     
 }
-
 .navbar-right ul {
     justify-content: flex-end;
 }
-
-
 .bottom-header-content {
     display: flex;
     width: 100%;
@@ -127,8 +114,12 @@ color: black;
     gap: 20px;
 }
 .left-col, .right-col {
-    width:48% ;
+    width: 48%;
     margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px;
 }
 .left-col {
     display: flex;
@@ -137,7 +128,6 @@ color: black;
     gap:20px;
     
 }
-
 .left-col p {
     margin-bottom: 15px;
     min-height: 30px;
@@ -150,15 +140,11 @@ color: black;
     color: white;
     border: none;
 }
-
 .right-col {
-
     position: relative;
     min-width:500px;
     min-width: 400px;
 }
-
-
 .right-col img {    
     
     max-height: 285px;
@@ -169,7 +155,6 @@ color: black;
 .fa-solid {
     font-size: 40px;
 }
-
 /*Main*/
 .xs-container h2{
     text-align: center;
@@ -187,7 +172,7 @@ color: black;
     width: 17px;
     border-radius: 50%;
     border: 2px solid lightslategray;
-    margin: -5px auto;
+    margin: -3px auto;
 }
 .circle-blue {
     display: inline-block;
@@ -195,14 +180,13 @@ color: black;
     width: 17px;
     border-radius: 50%;
     border: 3px solid rgb(0, 128, 255);
-    margin: -5px auto;
+    margin: -3px auto;
 }
-
-
 .row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 5px;
 }
 
 
@@ -213,24 +197,22 @@ color: black;
 .row .cols-3 {
     gap: 30px;
 }
-
 .row.cols-3 > .col {
     flex-grow: 1;
     flex-basis: calc(100% / 3 - 60px / 3);
     min-height: 95px;
     border: 1px solid lightslategray;
-    padding-left: 5px;
 
 }
 .tag {
     min-height: 20px;
     max-width: 100%;
-    border: 2px solid lightslategray;
-}
-.tag > i {
-    height: 10px;
-    width: 10px;
-    background-color: blue;
+    border: 1px solid lightslategray;
+    border-right: 5px;
+    text-align: center;}
+
+.tag span {
+    padding-right: 5px;
 }
 .line {
     width: 20%;
@@ -238,6 +220,17 @@ color: black;
     background-color: grey;
     margin: 10px 
 }
+
+.col .fa-solid{
+    font-size: 10px;
+}
+
+div > .fa-check {
+    color: blue;
+    font-size:10px ;
+}
+
+
 
 
     
