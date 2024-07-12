@@ -279,8 +279,37 @@ div > .fa-check {
     margin: 70px;
 }
 /*section business*/
+#dropbox-business h2 {
+    text-align: center;
+}
 
-     
+.row-business {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.col-business {
+    flex-basis: calc(100% / 3 - 20px / 3);
+    margin-bottom: 26px;
+}
+.card {
+    min-height: 354px;
+    min-width: 200px;
+    position: relative;
+}
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.customers-link > a {
+    text-decoration: underline;
+    color: blue;
+}
+     .xs-container > h2 {
+        margin-bottom: 20px;
+     }
     
 
 
