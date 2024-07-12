@@ -65,9 +65,9 @@ button{
     color: white;}
 
     #pricing button {
-        height: 30px;
-        width: 100%;
-        font-size: 15px;
+        height: 20px;
+        width: 90%;
+        font-size: 11px;
     }
     
 
@@ -204,6 +204,8 @@ color: black;
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+
 .row .cols-grow > *{
     flex-grow: 1;
 
@@ -217,6 +219,7 @@ color: black;
     flex-basis: calc(100% / 3 - 60px / 3);
     min-height: 95px;
     border: 1px solid lightslategray;
+    padding-left: 5px;
 
 }
 .tag {
@@ -229,6 +232,15 @@ color: black;
     width: 10px;
     background-color: blue;
 }
+.line {
+    width: 20%;
+    height: 1px;
+    background-color: grey;
+    margin: 10px 
+}
+
+
+    
 
 
 
