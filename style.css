@@ -100,7 +100,7 @@ z-index: 1;
 }
 
 #main-header ul {
-    display: flex;
+ display: flex;
 align-items: center;
 gap: 30px;
 
@@ -405,3 +405,46 @@ fa-ul{
     padding-left: 62px;
     
  }
+ /*Free-trial section*/
+ #free-trial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    background-color: lightblue;
+}
+
+.trial-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-tr {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.col-tr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.col-tr h2 {
+    color: darkred;
+}
+
+#free-trial button {
+    width: 181px;
+    font-size: 12px;
+    background-color: lightgrey;
+    height: 25px;
+    border: none;
+    color: black;
+}
