@@ -67,7 +67,6 @@ button{
         height: 25px;
         width: 60%;
         font-size: 11px;
-        margin-top: 20px;
     }
     #partner button {
         height: 24px;
@@ -76,6 +75,9 @@ button{
         background-color: white;
         border: 1px solid grey;
         color: grey;
+    }
+    li  {
+        padding-top: 20px;
     }
 
     
@@ -189,6 +191,7 @@ gap: 30px;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 5px;
+    margin-top: 15px;
 }
 
 
@@ -204,6 +207,7 @@ gap: 30px;
     flex-basis: calc(100% / 3 - 60px / 3);
     min-height: 95px;
     border: 1px solid lightslategray;
+    margin-top: 5px;
 
 }
 .tag {
@@ -223,8 +227,8 @@ gap: 30px;
     margin: 10px 
 }
 
-.col .fa-solid{
-    font-size: 10px;
+.col .fa-solid {
+    font-size: 15px;
 }
 
 div > .fa-check {
@@ -232,18 +236,12 @@ div > .fa-check {
     font-size:10px ;
 }
 
-li > h3 {
-    padding-top: 20px;
-}
-li > small-text {
-    padding-top: 20px;
-}
-
 fa-ul{
     list-style-type: none;
     margin-left: var(--fa-li-margin, 2.5em);
     padding-top: 40px
 }
+
     
 
 
@@ -402,7 +400,7 @@ fa-ul{
     display: block;
     margin-top: 10px;
     position: absolute;
-    top: 530px;
+    top: 360px;
     left: 0px;
     padding-left: 62px;
     
