@@ -64,10 +64,10 @@ button{
 
     #pricing button {
         
-        font-size: 15px;
-        height: 20px;
-        width: 100%;
+        height: 25px;
+        width: 60%;
         font-size: 11px;
+        margin-top: 20px;
     }
     #partner button {
         height: 24px;
@@ -232,6 +232,21 @@ div > .fa-check {
     font-size:10px ;
 }
 
+li > h3 {
+    padding-top: 20px;
+}
+li > small-text {
+    padding-top: 20px;
+}
+
+fa-ul{
+    list-style-type: none;
+    margin-left: var(--fa-li-margin, 2.5em);
+    padding-top: 40px
+}
+    
+
+
  /*section partner*/
 
  .partner-flex-container {
@@ -387,7 +402,7 @@ div > .fa-check {
     display: block;
     margin-top: 10px;
     position: absolute;
-    top: 430px;
+    top: 530px;
     left: 0px;
     padding-left: 62px;
     
