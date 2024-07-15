@@ -41,7 +41,7 @@ h1 {
     max-width: 50%;
     position: relative;
     margin: 100px auto;
-    border: 2px dashed black;
+   
 }
 
 .small-txt {
@@ -163,6 +163,10 @@ gap: 30px;
 .xs-container span {
     text-align: center;
     line-height: 17px;
+}
+.col a {
+    color: blue;
+    text-decoration: underline;
 }
 .circle {
     display: inline-block;
@@ -298,102 +302,93 @@ div > .fa-check {
         margin-bottom: 20px;
  }
 
- /*section Designit*/
- .container {
-    position: relative;
-    height: 35vh;
-    background-color: lightblue;
+ /*section Parners*/
+
+ .squares {
+    display: flex;
+    background-color: white;
+ }
+ .squares .square {
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+  
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .square .small-square {
+    width: 50%;
+    height: 50%;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+    
+
+ }
+ .large-square {
+    position: relative;
+ }
+ .small-square img {
+    width: 50%;
+    filter: invert(1);
+    
  }
 
- .Designit {
-    position: absolute;
-    width: 10%;
-    height: 40%;
-    margin: 0.5%;
-    background-color: red;
-    top: 0;
-    left: 0;
-}
-
-
-.small-square2 {
-    position: absolute;
-    width: 10%;
-    height: 40%;
-    margin: 0.5%;
-    background-color: black;
-    top: 0;
-    left: 175px;
+ .large-square img {
+    width: 100%;
+    margin: 0 auto;
     
-}
-.large-square {
-    position: absolute;
+    
+ }
+ .square .large-square {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 25px;
+    position: relative;
+    top: -158px;
+
+ }
+ .designit {
+    background-color: lightgreen;
+ }
+ .asu {
+    background-color: darkred;
+ }
+ .uf {
+    background-color: lightskyblue;
+ }
+ .topps {
+    background-color: red;
+ }
+ .wbr {
+    background-color:red ;
+ }
+ .hc {
+    background-color: lightblue;
+ }
+ .lp {
+    background-color: darkblue;
+ }
+ .cc {
+    background-color: yellow;
+ }
+ .small-square:hover {
+    border: 10px solid rgba(255, 255, 255, 0.5)
+ }
+ .small-square img {
+    width: calc(50% + 20px);
+    filter: invert(1);
+ } 
+ .line-sq {
+    border: 1px solid grey;
     width: 20%;
-    height: 80%;
-    margin: 0.5%;
-    background-color: white;
-    top: 0;
-    left: 351px;
-}
-
-.small-square3 {
+    display: block;
+    margin-top: 10px;
     position: absolute;
-    width: 10%;
-    height: 40%;
-    margin: 0.5%;
-    background-color: blue;
-    top: 146px;
-    left: 175px;
-}
-.small-square4 {
-    position: absolute;
-    width: 10%;
-    height: 40%;
-    margin: 0.5%;
-    background-color: grey;
-    top: 146px;
-    left: 0;
-}
-
-
-.small-square5 {
-    position: absolute;
-    width: 10%;
-    height: 40%;
-    margin: 0.5%;
-    background-color: grey;
-    top: 0;
-    left: 702px;
-}
-
-.small-square6 {
-    position: absolute;
-    width: 10%;
-    height: 40%;
-    margin: 0.5%;
-    background-color: rgb(21, 120, 207);
-    bottom: 55px;
-    left: 702px;
-}
-.small-square7 {
-    position: absolute;
-    width: 10%;
-    height: 40%;
-    margin: 0.5%;
-    background-color: greenyellow;
-    top: 0px;
-    left: 877px;
-}
-.small-square8 {
-    position: absolute;
-    width: 10%;
-    height: 40%;
-    margin: 0.5%;
-    background-color: burlywood;
-    bottom: 55px;
-    left: 877px;
-}
-
+    top: 430px;
+    left: 0px;
+    padding-left: 62px;
+    
+ }
