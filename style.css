@@ -478,10 +478,65 @@ fa-ul{
     align-items: center;
     justify-content: space-between;}
 
-   #footer-container {
-    background-color: black;
-    min-height: 400px;
-   }
+/*Footer*/
+#footer-container {
+    padding: 40px 0;
+    background-color: #000;
+}
 
+.xl-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row-footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.col-foot {
+    flex: 1;
+    min-width: 150px;
+    margin: 15px;
+}
+
+.col-foot h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: start;
+    }
+
+.col-foot ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.col-foot ul li {
+    text-align: start;
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+footer {
+    border-top: 1px solid #333;
+    padding-top: 10px;
+    text-align: center;
+    color:white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+   
+}
+footer li {
+    font-size: 12px;
+    text-align: start;
+}
 
 
